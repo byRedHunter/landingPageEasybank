@@ -1,0 +1,29 @@
+section.why-choose {
+    position: relative;
+    width: 100%;
+    background-color: $color-lightGrayishBlue;
+    padding: 80px 20px 60px;
+    text-align: center;
+    h2 {
+        font-size: 1.8em;
+        margin-bottom: 25px;
+        line-height: 1.5em;
+    }
+}
+.container-cards {
+    margin-top: 60px;
+    .card {
+        margin-top: 40px;
+        .card-image {
+            margin-bottom: 20px;
+        }
+        .card-body {
+            h3 {
+                font-size: 1.3em;
+            }
+            p {
+                margin-top: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+footer {
+    background-color: $color-darkBlue;
+    padding: 60px 0;
+    text-align: center;
+    .logo-footer {
+        height: 25px;
+        margin-bottom: 20px;
+    }
+    .btn-nav {
+        margin: 20px 0;
+    }
+}
+.redes-sociales {
+    margin-bottom: 20px;
+    a {
+        margin: 0 5px;
+        img {
+            transition: all ease-in .5s;
+            &:hover {
+                transform: scale(1.2);;
+            }
+        }
+    }
+}
+ul.menu {
+    li {
+        margin-bottom: 10px;
+        padding: 5px 0;
+        a {
+            color: $color-veryLightGray;
+            transition: all ease-in .3s;
+            &:hover {
+                color: $color-limaGreen;
+                
+            }
+        }
+    }
+}
